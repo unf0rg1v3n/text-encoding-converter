@@ -13,13 +13,17 @@ def main():
             case "2":
                 file_path = input("Enter a relative or absolute path to the file: ")
                 res = detect_encode(file_path)
-                opt = input("1] CP-866\n2] ASCII\n3] UTF-8\nChoose 1 option: ")
+                opt = input("1] CP-866\n2] ASCII\n3] CP1251\n4] MacCyrillic\n5] CP-65001\nChoose 1 option: ")
                 match opt:
                     case "1":
                         src = "cp866"
                     case "2":
                         src = "ascii"
                     case "3":
+                        src = "cp1251"
+                    case "4":
+                        src = "mac_cyrillic"
+                    case "5":
                         src = "utf-8"
                     case _:
                         print("Encoding set up to default -- ASCII")
