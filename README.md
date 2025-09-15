@@ -1,2 +1,6 @@
 # text-encoding-converter
-simple app for 1st laboratory work on the subj of coding and compression algorithms
+simple script for 1st laboratory work on the subject of coding and compression algorithms
+
+Command to run: python main.py
+
+You can use the attached file for testing.
